@@ -21,6 +21,7 @@
 		81CD74DD19C1436C00BB5FB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CD74BF19C1436C00BB5FB9 /* UIKit.framework */; };
 		81CD74E519C1436C00BB5FB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CD74E319C1436C00BB5FB9 /* InfoPlist.strings */; };
 		81CD74E719C1436C00BB5FB9 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD74E619C1436C00BB5FB9 /* viewTutorialTests.m */; };
+		81CD74F219C1598200BB5FB9 /* BLGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD74F119C1598200BB5FB9 /* BLGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		81CD74E219C1436C00BB5FB9 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		81CD74E419C1436C00BB5FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81CD74E619C1436C00BB5FB9 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		81CD74F019C1598200BB5FB9 /* BLGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLGrid.h; sourceTree = "<group>"; };
+		81CD74F119C1598200BB5FB9 /* BLGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				81CD74CD19C1436C00BB5FB9 /* Main.storyboard */,
 				81CD74D019C1436C00BB5FB9 /* BLViewController.h */,
 				81CD74D119C1436C00BB5FB9 /* BLViewController.m */,
+				81CD74F019C1598200BB5FB9 /* BLGrid.h */,
+				81CD74F119C1598200BB5FB9 /* BLGrid.m */,
 				81CD74D319C1436C00BB5FB9 /* Images.xcassets */,
 				81CD74C219C1436C00BB5FB9 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				81CD74D219C1436C00BB5FB9 /* BLViewController.m in Sources */,
 				81CD74CC19C1436C00BB5FB9 /* BLAppDelegate.m in Sources */,
 				81CD74C819C1436C00BB5FB9 /* main.m in Sources */,
+				81CD74F219C1598200BB5FB9 /* BLGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
