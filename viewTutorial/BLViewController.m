@@ -45,6 +45,7 @@
     _button.backgroundColor = [UIColor redColor];
     _button.showsTouchWhenHighlighted = true;
     [_button setTitle:(NSString *)@"Hit me" forState:(UIControlState)UIControlStateNormal];
+    [_button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [_gridView addSubview:_button];
     
     // create target for button
